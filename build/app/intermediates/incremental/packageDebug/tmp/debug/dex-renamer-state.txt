@@ -1,4 +1,4 @@
-#Fri May 05 00:32:46 CDT 2023
-base.0=/Users/admin/Documents/udg/Diseño de aplicaciones móviles/proyecto_flutter/flutter-xd/flutter_xd/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sat May 06 08:31:34 CDT 2023
+base.0=/Users/admin/Documents/udg/Diseño de aplicaciones móviles/proyecto_flutter/flutterApp-1/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
