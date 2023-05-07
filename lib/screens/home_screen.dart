@@ -17,7 +17,31 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.redAccent,
         centerTitle:true,
         ),
-       body: Center(
+
+
+       body: Container(
+       color: Color.fromRGBO(215, 215, 215, 1),
+        child: Center (
+           child: Column(
+          
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: const <Widget>[
+              HomeCarrusel(),
+             /* Text('Titulo'),
+              Text('Descripción'), */
+              RowPlesiHome(),
+              HomeGrid(),
+
+             
+            ],
+
+          ),
+        ),
+        ), 
+
+
+
+    /*    body: Center(
           
           child: Column(
           
@@ -35,7 +59,7 @@ class HomeScreen extends StatelessWidget {
           ),
          
 
-      ),
+      ), */
 
       
 
