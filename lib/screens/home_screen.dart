@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
     return  Scaffold(
 
       appBar: AppBar(
-        title: const Text('ESTREAMANIA'),
+        title: const Text('ESTREAMANIA udg'),
         backgroundColor: Colors.redAccent,
         centerTitle:true,
         ),
@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             children: const <Widget>[
               HomeCarrusel(),
-             /*  Text('Titulo'),
+             /* Text('Titulo'),
               Text('Descripción'), */
               RowPlesiHome(),
               HomeGrid(),
@@ -36,6 +36,8 @@ class HomeScreen extends StatelessWidget {
          
 
       ),
+
+      
 
     );
   }

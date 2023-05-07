@@ -10,14 +10,14 @@ class RowPlesiHome extends StatelessWidget{
   children: <Widget>[
    Column(
         children: const <Widget> [
-         Image(image:  AssetImage('../assets/images/destacado1.png')),
-         Text('Contenido uno', textAlign: TextAlign.center, style: TextStyle(color: Color.fromARGB(255, 67, 51, 2), fontSize:12 )),
+         Image(image:  AssetImage('images/destacado1.png')),
+         Text('Contenido ', textAlign: TextAlign.center, style: TextStyle(color: Color.fromARGB(255, 67, 51, 2), fontSize:12 )),
         ],
       ),
       
        Column(
         children: const <Widget> [
-         Image(image:  AssetImage('../assets/images/destacado2.png')),
+         Image(image:  AssetImage('images/destacado2.png')),
         Text('Contenido dos', textAlign: TextAlign.center, style: TextStyle(color: Color.fromARGB(255, 67, 51, 2), fontSize:12 )),
         ],
       ),   

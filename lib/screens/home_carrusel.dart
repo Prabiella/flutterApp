@@ -6,10 +6,23 @@ class HomeCarrusel extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     
-    return  const Image(  
-      image: AssetImage('../assets/images/slider_widget.png'),
+    return Row(
+    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    children: [
+      Image.asset('images/ejemplo.jpg'),
+    
+    ],
+  );
+    
+    
+    
+    
+    
+    
+     /* const Image(  
+      image: AssetImage('images/slider_widget.png'),
       fit: BoxFit.fitWidth,
-      );
+      ); */
    
   }
 

@@ -11,7 +11,7 @@ class HomeGrid extends StatelessWidget{
   children: <Widget>[
    Column(
         children: const <Widget> [
-         Image(image:  AssetImage('../assets/images/row01.png'), width: 150),
+         Image(image:  AssetImage('images/row01.png'), width: 150),
          Text('Contenido uno', textAlign: TextAlign.center, style: TextStyle(color: Color.fromARGB(255, 67, 51, 2), fontSize:12 )),
         ],
       ),
@@ -19,7 +19,7 @@ class HomeGrid extends StatelessWidget{
        Column(
         children: const <Widget> [
          
-         Image(image:  AssetImage('../assets/images/row01.png'), width: 150),
+         Image(image:  AssetImage('images/row01.png'), width: 150),
         Text('Contenido dos', textAlign: TextAlign.center, style: TextStyle(color: Color.fromARGB(255, 67, 51, 2), fontSize:12 )),
         ],
       ),   
@@ -27,7 +27,7 @@ class HomeGrid extends StatelessWidget{
 
       Column(
         children: const <Widget> [
-         Image(image:  AssetImage('../assets/images/row01.png'), width: 150),
+         Image(image:  AssetImage('images/row01.png'), width: 150),
         Text('Contenido dos', textAlign: TextAlign.center, style: TextStyle(color: Color.fromARGB(255, 67, 51, 2), fontSize:12 )),
         ],
       ),   
