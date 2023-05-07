@@ -9,7 +9,9 @@ class HomeCarrusel extends StatelessWidget{
     return Row(
     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
     children: [
-      Image.asset('images/ejemplo.jpg'),
+      Expanded(
+        child: Image.asset('assets/slider_widget.png'), 
+      ) 
     
     ],
   );
