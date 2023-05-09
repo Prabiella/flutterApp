@@ -1,8 +1,7 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:flutter_xd/screens/home_carrusel.dart';
-import 'package:flutter_xd/screens/home_grid.dart';
+import 'package:flutter_xd/screens/home_movie_slider.dart';
+
 import 'package:flutter_xd/screens/home_row.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -19,21 +18,17 @@ class HomeScreen extends StatelessWidget {
         ),
 
 
-       body: Container(
-       color: Color.fromRGBO(215, 215, 215, 1),
+       body: SingleChildScrollView(
         child: Center (
            child: Column(
-          
             mainAxisAlignment: MainAxisAlignment.start,
             children: const <Widget>[
               HomeCarrusel(),
              /* Text('Titulo'),
               Text('Descripción'), */
               RowPlesiHome(),
-              HomeGrid(),
-
-             
-            ],
+              MovieSlider(),
+             ],
 
           ),
         ),
